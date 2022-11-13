@@ -1,6 +1,6 @@
 const ProjectCard = (props) => {
   return (
-    <div className="w-[80%] max-w-[500px] md:w-[70%] min-h-[450px] bg-[#452a64] my-4 p-3 rounded-lg">
+    <div className="w-[80%] max-w-[500px] md:w-[70%] min-h-[450px] bg-[#452a64] my-4 p-3 rounded-lg hover:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
       <div className="img w-[90%] max-w-[300px] mx-auto relative">
         <img src="/laptop.png" alt="" />
         <img

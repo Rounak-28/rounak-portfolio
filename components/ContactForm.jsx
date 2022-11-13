@@ -63,7 +63,7 @@ const ContactForm = () => {
       />
       <p className="text-red-700 invisible" ref={warningRef}>something is wrong</p>
       <button
-        className="w-full h-14 bg-[#4c2c6b] rounded-sm"
+        className="w-full h-14 bg-[#4c2c6b] rounded-sm hover:-skew-x-6"
         onClick={sendMail}
       >
         Send

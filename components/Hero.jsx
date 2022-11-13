@@ -14,7 +14,7 @@ const Hero = () => {
         <p className=" my-6 text-lg">
           I&#39;m a <span className="text-[#9370bb] font-semibold text-xl">Full Stack Developer</span> mainly focused on <span className="text-[#9370bb] font-semibold text-xl">Frontend</span>, I create web apps using modern technologies.
         </p>
-        <button className="bg-purple-500 text-white px-4 py-2 mb-6 rounded-sm">
+        <button className="bg-purple-500 text-white px-4 py-2 mb-6 rounded-sm hover:-skew-x-6">
           Download Resume
         </button>
         <div className="socials flex text-3xl space-x-9">

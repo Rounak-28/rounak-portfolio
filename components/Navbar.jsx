@@ -17,30 +17,30 @@ const Navbar = () => {
       <div className="navs">
         <ul className="flex space-x-3 lg:space-x-8">
           <ScrollLink to="projects" smooth={true} duration={500}>
-            <li className="flex space-x-2 items-center cursor-pointer">
+            <li className="flex space-x-1 items-center cursor-pointer hover-underline-animation">
               <AiOutlineHome />
-              Home
+              <p>Home</p>
             </li>
           </ScrollLink>
 
           <ScrollLink to="projects" smooth={true} duration={500}>
-            <li className="flex space-x-2 items-center cursor-pointer">
+            <li className="flex space-x-1 items-center cursor-pointer hover-underline-animation">
               <AiOutlineFundProjectionScreen />
-              Projects
+              <p>Projects</p>
             </li>
           </ScrollLink>
 
           <ScrollLink to="about" smooth={true} duration={500}>
-            <li className="flex space-x-2 items-center cursor-pointer">
+            <li className="flex space-x-1 items-center cursor-pointer hover-underline-animation">
               <IoPersonOutline />
-              About
+              <p>About</p>
             </li>
           </ScrollLink>
 
           <ScrollLink to="contact" smooth={true} duration={500}>
-            <li className="flex space-x-2 items-center cursor-pointer">
+            <li className="flex space-x-1 items-center cursor-pointer hover-underline-animation">
               <BiMessageAltDetail />
-              Contact
+              <p>Contact</p>
             </li>
           </ScrollLink>
         </ul>
