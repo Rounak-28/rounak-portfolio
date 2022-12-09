@@ -7,6 +7,9 @@ const Projects = () => {
       <div className="pt-8">
         <p className="pl-[10%] text-xl text-[#9d94a5]">PROJECTS</p>
         <div className="card flex flex-col items-center">
+          <ProjectCard title="Windows 11 clone" description="A simple windows clone where you can use chrome, notepad, settings etc."
+          img="/windows-clone.jpg" codeLink="https://github.com/Rounak-28/windows-11-clone" liveLink="https://rounak-os.vercel.app/" />
+
           <ProjectCard title="CryptoNews" description="A website where you can track price of 100 crypto currencies. You can also get recent top news related to crypto."
           img="/cryptonews.jpg" codeLink="https://github.com/Rounak-28/crypto-price-tracker" liveLink="https://crypto-price-tracker-seven.vercel.app/" />
 
